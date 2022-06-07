@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Yusuf Abdul-Akeem</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio"> \n Abdul-Akeem, also known as Hackmen right from age 16 is a Computer and Tech enthusiast,
+            He was named and known for his passion for his curiosity about Tech. His hunger for
+            knowledge and Curiosity of how things work being a fan of Aaron Swartz has led him to study
+            Computer Engineering upon completing his senior secondary education and further enrolling as a
+            CS student in the premier University of Nigeria, University of Ibadan.
+        \n\n
+            Being raised up by his mother who was a typist right from time, Akeem has influenced his
+            mothers\'s career by enlightening her about today\'s\' Tech thereby bringing her business to a new
+            level with various Tech optimisations as a result of is passion for exploring and experiment
+            Tech gadgets hence creating a new standard for rivals and competitors.
+        \n\n
+            He is also known for his willingness to help people of different nature troubleshoot their
+            hardware and software problems, people find comfort in consulting him for different scenarios,
+            be it starting a software development journey, troubleshoot bugs in codes, reverse engineering
+            integrated circuits/embedded chips seeking his expertise or experience regarding setting up or
+            configuring various types of hardware, breaking down problems into smaller pieces (learning his
+            approach to solving technical problems), just to name a few.
+        \n\n
+            He is currently learning Mobile Development (both Android and iOS) as he wishes to settle for
+            Mobile Developer role at the present moment but aspires to become a Site Reliability Engineer /
+            Infrastructure Engineer in the nearest future. He believes he has all it takes to achieve his desire
+            and he won\'t stop until he finally makes his Momma proud, May God make his journey a successful one.
+        \n\n
+    </string>
 </resources>
