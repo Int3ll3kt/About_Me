@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         binding.doneButton.setOnClickListener { addNickname(it) }
-        binding.nicknameText.setOnClickListener { updateNickme(it) }
+        binding.nicknameText.setOnClickListener { updateNickname(it) }
         val view = binding.root
         setContentView(view)
 
@@ -23,7 +23,10 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main)
     }
 
-    private fun updateNickme(it: View?) {
+    private fun updateNickname(view: View?) {
+        binding.nicknameEdit.visibility =View.VISIBLE
+        binding.doneButton.visibility =View.VISIBLE
+        binding.nicknameText.visibility =View.GONE
 
     }
 
