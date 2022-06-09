@@ -1,4 +1,4 @@
-package com.int3ll3ky.aboutme
+package com.int3ll3kt.aboutme
 
 import org.junit.Test
 

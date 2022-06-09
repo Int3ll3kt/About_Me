@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.int3ll3ky.aboutme"
+        applicationId "com.int3ll3kt.aboutme"
         minSdk 19
         targetSdk 32
         versionCode 1
@@ -28,6 +28,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    buildFeatures{
+        viewBinding  true
     }
 }
 
