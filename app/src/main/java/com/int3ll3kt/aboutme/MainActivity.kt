@@ -27,6 +27,11 @@ class MainActivity : AppCompatActivity() {
         binding.nicknameEdit.visibility =View.VISIBLE
         binding.doneButton.visibility =View.VISIBLE
         binding.nicknameText.visibility =View.GONE
+        binding.nicknameEdit.requestFocus()
+
+        // Show the keyboard.
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.showSoftInput(binding.nicknameEdit, 0)
 
     }
 

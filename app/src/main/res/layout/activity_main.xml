@@ -24,6 +24,8 @@
     <EditText
         android:id="@+id/nickname_edit"
         style="@style/NameStyle"
+        android:background="@color/purple_200"
+        android:paddingBottom="@dimen/small_padding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
