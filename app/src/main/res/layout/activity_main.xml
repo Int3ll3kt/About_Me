@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:lineSpacingMultiplier="1.2"
                 android:text="@string/bio"
-                android:textAlignment="center" />
+                android:textAlignment="center"/>
 
         </LinearLayout>
     </ScrollView>
