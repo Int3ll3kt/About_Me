@@ -15,12 +15,16 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         binding.doneButton.setOnClickListener { addNickname(it) }
-
+        binding.nicknameText.setOnClickListener { updateNickme(it) }
         val view = binding.root
         setContentView(view)
 
 
 //        setContentView(R.layout.activity_main)
+    }
+
+    private fun updateNickme(it: View?) {
+
     }
 
     private fun addNickname(view: View) {
